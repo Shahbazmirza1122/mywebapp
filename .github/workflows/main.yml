@@ -35,11 +35,12 @@ jobs:
       with: 
         version: 12
         
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.1.0
-      with:
-        # Yarn command
-        cmd: install # npm install/ yarn install
+   
+        
+    - name: npm setup
+       uses: ng-easy/npm-setup@v1.7.2
+          with:
+           cmd: npm install
     
     - name: Creating build
       run: npm run build
