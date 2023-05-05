@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Meet With Shahbaz Mirza
+          Meet With SHAHBAZ MIRZA
         </a>
       </header>
     </div>
